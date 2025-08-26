@@ -1,0 +1,746 @@
+/* Estilos generales */
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0%;
+}
+.logotipo{
+    width: 8rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 0;
+}
+
+.index-header{
+    background-image: url(../img/Fondoheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;  
+    
+}
+
+.index-header-camaras{
+    background-image: url(../img/camarasfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;  
+    
+}
+
+.index-header-rollos{
+    background-image: url(../img/rollosheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;  
+    
+}
+
+.index-header-servicios{
+    background-image: url(../img/serviciosheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;  
+    
+}
+
+.index-header-contacto{
+    background-image: url(../img/contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;  
+    
+}
+
+
+
+
+.nav-superior ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.p-index-header, .h1-header{
+    color: rgb(0, 0, 0);
+}
+
+.p-index-header-blanco, .h1-header-blanco{
+    color: rgb(255, 255, 255);
+}
+
+
+.h1-heder-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1rem;
+    height: 90vh;
+    max-width: 30rem;
+}
+
+.ustedes-h1-heder-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110vh;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: linear-gradient(90deg, #f157b1, rgb(255, 224, 251));
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s infinite alternate;
+    height: 95vh; 
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Estilos main */
+
+.h2-index-pri{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+    color: #f157b1;
+}
+
+.index-ofrecemos{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 40px;
+    background-color: rgb(250, 255, 156);
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+
+    /* viejo
+    padding: 1rem;
+    border-radius: 40px;
+    background-color: rgb(250, 255, 156);
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    */
+}
+
+.h3-titulo-ofrecemos{
+    font-size: 10px ;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.card-ofrecemos{
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    /* viejo
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    */
+}
+
+.imagenes-ejemplo{
+    width: 100%;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor-video{
+    padding-left: none;
+    padding-right:  none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+}
+
+.video-main{
+    height: 54vh;
+    border-radius: 30px;
+}
+
+.conoce-tokyo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.texto-fotos-local{
+    display: flex;
+    flex-direction: column;
+}
+
+.conoce-titulo{
+    font-size: 40px;
+    font-weight: 700;
+    color: #f157b1;
+    padding-bottom: 2%;
+}
+
+.fotos-local{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.foto1{
+    display: flex;
+    justify-content: start;
+}
+
+.foto2{
+    display: flex;
+    justify-content: end;
+}
+
+.foto-local-1{
+    width: 92%;
+    border-radius: 30px;
+}
+
+
+.contenedor-main-1{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 2rem; */
+    /* margin-right: 2rem; */
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.bloque-elegirnos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding-right: 1rem; */
+    width: 20%;
+}
+
+.bloque-elegirnos img{
+    width: 3.5rem;
+}
+
+.h4-subtitulo{
+    padding-top: 5%;
+    display: flex;
+    text-align: center;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+    font-size: 12px;
+}
+
+.h2-index{
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+    color: #f157b1;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.3rem;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.card-camara{
+    width: 20rem;
+    background-color: rgb(250, 255, 156);
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 40px;
+    
+}
+
+.card-merch{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: rgb(255, 224, 251);
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 40px;
+    
+}
+
+.card-camara img{
+    width: 100%;
+}
+
+.descripcion{
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+}
+
+.card-camara-precio{
+    color: rgb(239, 91, 165);
+    font-weight: 600;
+}
+.card-camara-precio span{
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
+
+.card-camara-btn{
+    width: 100%;
+    background-color: rgb(255, 156, 206);
+    border: none;
+    padding: 0.7rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+}
+
+.card-merch-btn{
+    width: 100%;
+    background-color: rgb(255, 156, 206);
+    border: none;
+    padding: 0.7rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+}
+
+.card-merch-precio{
+    color: rgb(239, 91, 165);
+    font-weight: 600;
+}
+
+.card-merch-precio span{
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
+
+.card-rollos{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: rgb(255, 156, 206);
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 40px;
+    justify-content: space-around;
+}
+
+.card-rollos-btn{
+    width: 100%;
+    background-color: rgb(255, 224, 251);
+    border: none;
+    padding: 0.7rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+}
+
+.card-rollos-precio{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.card-rollos-precio span{
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
+
+.titulo-ustedes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.camara-rotate{
+    width: 20%;
+    height: 20%;
+    transform: rotate(-15deg);
+    padding-right: 3%;
+}
+
+.resultado-1{
+        display: flex;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 5%;
+        flex-direction: column;
+        align-items: center;
+}
+
+.resultado-imagen{
+    width: 37vh;
+}
+
+.img-cliente{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.reusltado-texto{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.descripcion-sticker{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sticker-lugar{
+    width: 10%;
+}
+
+.sticker{
+    width: 100%;
+    height: 100%;
+    animation: rotarX 3s linear infinite;
+    transform-style: preserve-3d;
+    display: block;
+    margin: auto;
+}
+
+/* Animación */
+@keyframes rotarX {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.sticker2{
+    width: 100%;
+    height: 100%;
+    animation: rotarY 3s linear infinite;
+    transform-style: preserve-3d;
+    display: block;
+    margin: auto;
+}
+/* Animación */
+@keyframes rotarY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logotipo-footer
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+footer{
+    margin: 2rem;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.footer-container-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0.2rem;
+    grid-row-gap: 0.2rem;
+    margin: 1rem auto;
+}
+
+.footer-container-primerHijo {
+    grid-area: 1 / 2 / 2 / 4;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+.footer-container-segundoHijo {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+.footer-container-tercerHijo {
+    grid-area: 2 / 1 / 4 / 4;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+
+
+/* Estilos Bootsrap */
+.btn-outline-success {
+    --bs-btn-color: #f157b1;
+    --bs-btn-border-color: #f157b1;
+    --bs-btn-hover-bg: #f157b1;
+    --bs-btn-hover-border-color: #f157b1;
+    --bs-btn-active-bg: #f157b1;
+    --bs-btn-active-border-color: #f157b1;
+}
+
+.navbar-toggler {
+    color: #f157b1;
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-color: #f157b1;
+}
+
+
+
+@media only screen and (min-width: 420px ){
+
+    .h4-subtitulo{
+    font-size: 15px;
+   }
+
+    .h2-index{
+    padding-top: 4.5rem;
+    padding-bottom: 4rem;
+    }
+
+    .h3-titulo-ofrecemos{
+        font-size: 14px;
+    }
+
+    .video-main{
+        height: 67vh;
+    }
+
+    .resultado-imagen{
+    width: 50vh;
+    }
+
+
+    
+
+}
+
+@media only screen and (min-width: 720px ){
+    
+
+    .video-main{
+        height: 64.5vh;
+    }
+
+    .conoce-titulo {
+    font-size: 30px;
+    }
+
+    .conoce-tokyo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8%;
+    padding-right: none;
+
+    }
+
+    .contenedor-video{
+    padding-left: none;
+    padding-right: 4%;
+    display: block;
+    }
+
+    .resultado-1{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    }
+
+    .resultado-imagen{
+        width: 120vh;
+    }
+
+    .resultado-1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    }
+    
+
+}
+
+
+@media only screen and (min-width: 900px ){
+
+    .h1-heder-flex {
+    height: vh;
+   }
+
+   .bloque-elegirnos img {
+    width: 5rem;
+   }
+
+    .contenedor-main-1{
+   padding-left: 12rem;
+   padding-right: 12rem;
+   padding-top: 3rem;
+    padding-bottom: 3rem;
+   }
+
+    .h3-titulo-ofrecemos{
+        font-size: 20px;
+    }
+
+    .video-main{
+    height: 83vh;
+    }
+
+    .conoce-titulo{
+    font-size: 40px;
+    }
+
+
+}
+
+
+
+/* css para despues de 900px 
+
+.video-main{
+    height: 77vh;
+    border-radius: 30px;
+}
+
+.conoce-tokyo{
+    display: flex;
+    padding-top: 8%;
+    padding-right: 7%;
+}
+
+.texto-fotos-local{
+    display: flex;
+    flex-direction: column;
+}
+
+.conoce-titulo{
+    font-size: 40px;
+    font-weight: 700;
+    color: #f157b1;
+    padding-bottom: 2%;
+}
+
+.fotos-local{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.foto1{
+    display: flex;
+    justify-content: start;
+}
+
+.foto2{
+    display: flex;
+    justify-content: end;
+}
+
+.foto-local-1{
+    width: 92%;
+    border-radius: 30px;
+}
+
+*/
+
+/* css desde 720px a 900px
+
+    .video-main{
+        height: 63vh;
+    }
+
+    .conoce-titulo {
+    font-size: 30px;
+    }
+
+    .conoce-tokyo{
+    display: flex;
+    padding-top: 8%;
+    padding-right: 7%;
+    }
+
+    .contenedor-video{
+    padding-left: 7%;
+    padding-right: 4%;
+    display: block?;
+    }
+
+*/
+
+/* css desde 420 a 720
+    .conoce-tokyo{
+    flex-direction: column;
+    padding-right: 5%;
+    padding-left: 5%;
+
+    }
+
+    .contenedor-video{
+    padding-left: none;
+    padding-right:  none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+
+*/
