@@ -17,7 +17,7 @@ ul{
 }
 
 .index-header{
-    background-image: url(../img/Fondoheader.jpg);
+    background-image: url(img/Fondoheader.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,7 +26,7 @@ ul{
 }
 
 .index-header-camaras{
-    background-image: url(../img/camarasfondo.jpg);
+    background-image: url(img/camarasfondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,7 +35,7 @@ ul{
 }
 
 .index-header-rollos{
-    background-image: url(../img/rollosheader.jpg);
+    background-image: url(img/rollosheader.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,7 +44,7 @@ ul{
 }
 
 .index-header-servicios{
-    background-image: url(../img/serviciosheader.jpg);
+    background-image: url(img/serviciosheader.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,7 +53,7 @@ ul{
 }
 
 .index-header-contacto{
-    background-image: url(../img/contacto.png);
+    background-image: url(img/contacto.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
