@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Inicio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="script.js" defer> </script>
+
+</head>
+<body>
+    <header class="index-header">
+        <div class="index-header-flex">
+
+            <nav class="navbar navbar-expand-lg bg-body w-100 position-fixed">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                  <img class="logotipo" src="./img/TokyoLogo.png" alt="Tokyo Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="./Pages/Productos.html">Todos nuestros productos</a></li>
+                        <li><a class="dropdown-item" href="./Pages/Camaras.html">Cámaras</a></li>
+                        <li><a class="dropdown-item" href="./Pages/Rollos.html">Rollos</a></li>
+                        <li><a class="dropdown-item" href="./Pages/Merch.html">Nuestra merch</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Pages/Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Pages/Ustedes.html">Ustedes</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Pages/Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    
+                    <a id="btnVerCarrito" href="./Pages/Carrito.html" class="btn btn-dark ms-2 position-relative" aria-label="Ver carrito">
+                    <i class="bi bi-cart3"></i>
+                    <span class="ms-1 d-none d-lg-inline">Carrito</span>
+                    <span id="badgeCarrito" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                    </a>
+
+
+                </form>
+                </div>
+            </div>
+            </nav>
+        
+        
+        </div>
+
+        <div class="h1-heder-flex ps-3">
+        <h1 class="h1-header"> Para los amantes de lo analógico</h1>
+        <p class="p-index-header">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt itaque numquam voluptatem.
+        </p>
+        </div>
+        
+    </header>
+    <main id="grid">
+
+        <h2 class="h2-index"> ¿Por qué elegirnos? </h2>
+
+        <section class="contenedor-main-1">
+            <div class="bloque-elegirnos">
+                <img src="./img/tiempo-rapido.png" alt="icono tiempo rapido">
+                <h4 class="h4-subtitulo"> Servicio rápido</h4>
+            </div>
+            <div class="bloque-elegirnos">
+                <img src="./img/alta-calidad.png" alt="alta calidad">
+                <h4 class="h4-subtitulo"> Servicio de alta calidad</h4>
+            </div>
+            <div class="bloque-elegirnos">
+                <img src="./img/pelicula.png" alt="rollo analogico">
+                <h4 class="h4-subtitulo"> Amantes de lo analógico</h4>
+            </div>
+        </section>
+
+
+        <h2 class="h2-index-pri"> ¿Qué ofrecemos? </h2>
+        <section class="index-ofrecemos">
+            
+            <div class="card-ofrecemos"> 
+                <img class="imagenes-ejemplo" src="./img/camara1.png" alt="ejemplo de camara">
+                <h3 class="h3-titulo-ofrecemos">
+                    <a class="icon-link icon-link-hover" href="#"> Cámaras 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                    <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                    </a>
+                </h3>
+            </div>
+
+            <div class="card-ofrecemos"> 
+                <img class="imagenes-ejemplo" src="./img/rollopri.png" alt="rollo ejemplo">
+                <h3 class="h3-titulo-ofrecemos">
+                    <a class="icon-link icon-link-hover" href="#"> Rollos 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                    <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                    </a>
+                </h3>
+
+            </div>
+
+            <div class="card-ofrecemos"> 
+                <img class="imagenes-ejemplo" src="./img/scan1.png" alt="scaner ejemplo">
+                <h3 class="h3-titulo-ofrecemos"> 
+                    <a class="icon-link icon-link-hover" href="#"> Servicios
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                    <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                    </a>
+                </h3>
+            </div>
+            
+        </section>
+
+        <section class="conoce-tokyo">
+            <div class="contenedor-video">
+            <video class="video-main" src="./img/Conoceellocal.mov" autoplay muted loop playsinline >
+            </video>
+            </div>
+            <div class="texto-fotos-local">
+                <div class="texto-conocer">
+                    <h2 class="conoce-titulo"> Conoce Tokyo </h2>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis repudiandae temporibus nam sit dolorem quae atque aliquam adipisci officiis cum, consequatur eius dignissimos praesentium molestias nesciunt veniam impedit ducimus distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eum. Dicta aliquam modi.</p>
+                </div>
+                <div class="fotos-local">
+                    <div class="foto1">
+                        <img class="foto-local-1" src="./img/photolab.png"> 
+                    </div>
+                    <div class="foto2">
+                        <img class="foto-local-1" src="./img/Localtok.png"> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="ustedes-seccion">
+            <div class="titulo-ustedes">
+                <img class="camara-rotate" src="../img/camara1.png" alt="camara">
+                <h2 class="h2-index">Algunos resultados de la comunidad Tokyo</h2>
+            </div>
+            <div class="resultado-1">
+                <div class="resultado-imagen">
+                    <img class="img-cliente" src="../img/Screenshot1.png" alt="publicacion 1">
+                </div>
+                <div class="descripcion-sticker">
+                    <div class="reusltado-texto">
+                        <p> autor: Lorem ipsum </p>
+                        <p> Rollo: sit amet </p>
+                        <p> Cámara: consectetur adipisicing </p>
+                        <p> Tipo de servicio: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam doloremque, repudiandae, accusantium impedit, alias quae amet odit nemo harum delectus adipisci excepturi!</p>
+                    </div>
+                    <div class="sticker-lugar">
+                        <img class="sticker" src="../img/star-trek.png" alt="estrella">
+                    </div>
+                </div>
+            </div>
+            <div class="resultado-1">
+                <div class="resultado-imagen">
+                    <img class="img-cliente" src="../img/Screenshot2.png" alt="publicacion 1">
+                </div>
+                <div class="descripcion-sticker">
+                    <div class="reusltado-texto">
+                        <p> autor: Lorem ipsum </p>
+                        <p> Rollo: sit amet </p>
+                        <p> Cámara: consectetur adipisicing </p>
+                        <p> Tipo de servicio: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam doloremque, repudiandae, accusantium impedit, alias quae amet odit nemo harum delectus adipisci excepturi!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="resultado-1">
+                <div class="resultado-imagen">
+                    <img class="img-cliente" src="../img/Screenshot3.png" alt="publicacion 1">
+                </div>
+                <div class="descripcion-sticker">
+                    <div class="reusltado-texto">
+                        <p> autor: Lorem ipsum </p>
+                        <p> Rollo: sit amet </p>
+                        <p> Cámara: consectetur adipisicing </p>
+                        <p> Tipo de servicio: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam doloremque, repudiandae, accusantium impedit, alias quae amet odit nemo harum delectus adipisci excepturi!</p>
+                    </div>
+                    <div class="sticker-lugar">
+                        <img class="sticker2" src="../img/estrella.png" alt="estrella2">
+                    </div>
+                </div>
+            </div>
+            <div class="resultado-1">
+                <div class="resultado-imagen">
+                    <img class="img-cliente" src="../img/Screenshot4.png" alt="publicacion 1">
+                </div>
+                <div class="descripcion-sticker">
+                    <div class="reusltado-texto">
+                        <p> autor: Lorem ipsum </p>
+                        <p> Rollo: sit amet </p>
+                        <p> Cámara: consectetur adipisicing </p>
+                        <p> Tipo de servicio: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam doloremque, repudiandae, accusantium impedit, alias quae amet odit nemo harum delectus adipisci excepturi!</p>
+                    </div>
+                    <div class="sticker-lugar">
+                        <img class="sticker" src="../img/star-trek.png" alt="estrella">
+                    </div>
+                </div>
+            </div>
+
+        <h2 class="h2-index"> Algunas cámaras</h2>
+
+        <section class="main-container">
+
+            <section class="card-camara">
+            <img src="./img/Olympus_Infinity.png" alt="Olympus Infinity">
+            <h3> Olympus Infinity </h3>
+            <div class="descripcion">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic et perspiciatis quae eligendi earum, officiis rerum </p>
+            </div> 
+            <p class="card-camara-precio"><span> $80.000 </span> 60.000 </p>
+            <button class="card-camara-btn">Comprar</button>
+            </section>
+
+            
+            <section class="card-camara">
+            <img src="./img/Olympus_mju.png" alt="Olympus MJU">
+            <h3> Olympus MJU </h3>
+            <div class="descripcion">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic et perspiciatis quae eligendi earum, officiis rerum </p>
+            </div>   
+            <p class="card-camara-precio"><span> $80.000 </span> 60.000 </p>
+            <button class="card-camara-btn">Comprar</button>
+            </section>
+            
+            <section class="card-camara">
+            <img src="./img/Samsung.png" alt="Samsung">
+            <h3> Samsung </h3>
+            <div class="descripcion">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic et perspiciatis quae eligendi earum, officiis rerum </p>
+            </div> 
+            <p class="card-camara-precio"><span> $80.000 </span> 60.000 </p>
+            <button class="card-camara-btn">Comprar</button>
+            </section>
+        </section>
+
+        <h2 class="h2-index"> Algunos rollos </h2>
+        <section class="main-container">
+
+            <section class="card-rollos">
+            <img src="../img/Rollo1.png" alt="Rollo Tokyo">
+            <h3> Tokyo prueba 400 </h3>
+            <div class="descripcion">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic et perspiciatis quae eligendi earum, officiis rerum </p>
+            </div> 
+            <p class="card-rollos-precio"><span> $80.000 </span> 60.000 </p>
+            <button class="card-rollos-btn">Comprar</button>
+            </section>
+
+            
+            <section class="card-rollos">
+            <img src="../img/rollo2.png" alt="Kodak proimage 100">
+            <h3> Kodak proimage 100 </h3>
+            <div class="descripcion">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic et perspiciatis quae eligendi earum, officiis rerum </p>
+            </div>   
+            <p class="card-rollos-precio"><span> $80.000 </span> 60.000 </p>
+            <button class="card-rollos-btn">Comprar</button>
+            </section>
+            
+            <section class="card-rollos">
+            <img src="../img/rollo3.png" alt="Fujifilm 200">
+            <h3> Fujifilm 200 </h3>
+            <div class="descripcion">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic et perspiciatis quae eligendi earum, officiis rerum </p>
+            </div> 
+            <p class="card-rollos-precio"><span> $80.000 </span> 60.000 </p>
+            <button class="card-rollos-btn">Comprar</button>
+            </section>
+
+
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <section class="contenedor-footer">
+        <img class="logotipo-footer" src="./img/logotipo-de-instagram.png" alt="instagram">
+        <img class="logotipo-footer" src="./img/whatsapp.png" alt="Whatsapp">
+        <img class="logotipo-footer" src="./img/correo-electronico.png" alt="mail">
+        </section>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
